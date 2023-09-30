@@ -1,13 +1,10 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
+void prime(int n)
 {
-	int n, f = 0;
+	int f = 0;
 
-	printf("Enter a number:");
-	scanf_s("%d", &n);
-	
 	for (int i = 1; i <= n; i++)
 	{
 		if (n % i == 0)
